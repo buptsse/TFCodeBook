@@ -68,7 +68,9 @@ regularizer = tf.contrib.layers.l2_regularizer(REGULARAZTION_RATE)
 logits = inference(x, None) #这个地方暂时传入None,不考虑正则化
 ```
 
+[对应代码](https://github.com/buptsse/TFCodeBook/blob/master/Tensorflow%E4%B8%8A%E4%BD%BF%E7%94%A8%E7%AE%80%E5%8D%95%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.ipynb)
+
 ###Refer
 [tensorflow中的关键字global_step使用](http://blog.csdn.net/uestc_c2_403/article/details/72403833)
-(什么是 L1 L2 正规化 正则化 Regularization (深度学习 deep learning)
-)[https://www.youtube.com/watch?v=TmzzQoO8mr4]
+[什么是 L1 L2 正规化 正则化 Regularization (深度学习 deep learning)](https://www.youtube.com/watch?v=TmzzQoO8mr4)
+[使用TensorFlow实现的神经网络进行MNIST手写体数字识别](http://blog.csdn.net/mpk_no1/article/details/72855977)
